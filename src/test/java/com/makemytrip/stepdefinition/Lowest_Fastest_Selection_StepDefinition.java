@@ -16,9 +16,10 @@ import com.makemytrip.pom.SelectFlightPage;
 import com.makemytrip.runner.RunWithChrome;
 import com.makemytrip.util.UtilFunctions;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
 
 public class Lowest_Fastest_Selection_StepDefinition extends BaseClass {
 

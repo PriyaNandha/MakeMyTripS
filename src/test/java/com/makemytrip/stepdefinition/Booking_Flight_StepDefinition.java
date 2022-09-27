@@ -16,9 +16,9 @@ import com.makemytrip.baseclass.BaseClass;
 import com.makemytrip.pom.*;
 import com.makemytrip.runner.RunWithChrome;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import junit.framework.Assert;
 
 public class Booking_Flight_StepDefinition extends BaseClass {

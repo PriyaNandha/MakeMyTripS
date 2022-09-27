@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 				  glue = "com\\makemytrip\\stepdefinition", 
 				  plugin = {"json:target/cucumber.json"},
 				  monochrome = true, 
-				  strict = true, 
+//				  strict = true, 
 				  dryRun = false
 )
 
@@ -28,7 +28,7 @@ public class RunWithChrome extends BaseClass {
 		prop=readPropertyFile();
 		String browser = prop.getProperty("browserName");
 		driver = BaseClass.getBrowser(browser);
-		setExtentReport();
+//		setExtentReport();
 	}
 
 	@AfterClass
